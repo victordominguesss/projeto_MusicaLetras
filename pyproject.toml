@@ -1,0 +1,19 @@
+[project]
+name = "projeto-letras"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Victor Domingues victordominguesince01@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "streamlit (>=1.43.0,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
